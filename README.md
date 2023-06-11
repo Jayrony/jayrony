@@ -1,5 +1,5 @@
 ### Hi there 👋
-This is a simple CV sample webpage 
+This is a sample CV sample webpage 
 
 <!--
 **Jayrony/jayrony** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
