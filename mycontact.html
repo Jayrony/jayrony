@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jesse Ugo's Contact</title>
+    <title>Contact me</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
   
@@ -22,19 +22,19 @@
 	    <br><br>
 	    <hr>
 	    
-	    <form action="mailto:jesseugo14@gmail.com" method="post" enctype="text/plain">
+	    <form required action="mailto:jesseugo14@gmail.com" method="POST" target="_blank" enctype="text/plain">
 	      <table cellspacing="20px">
 	      <tr>
 	        <td><label><em>Your Name</em> </label></td>
-	        <td><input class="input-color" autofocus type="text" name="Your Name"></td>
+	        <td><input autofocus required class="input-color" autofocus type="text" name="Your Name"></td>
 	      </tr>
 	      <tr>
 	        <td><label><em>Your Email</em></label></td>
-	        <td><input class="input-color" type="email" name="Your Email"></td>
+	        <td><input required class="input-color" type="email" name="Your Email"></td>
 	      </tr><br><br>
 	      <tr>
 	        <td><label ><em>Your Message</em></label></td>
-	        <td><textarea class="textarea" name="Your Message" rows="20" cols="48"></textarea><input class="submit-button" value="Submit" type="submit"></td>
+	        <td><textarea required class="textarea" name="Your Message" rows="20" cols="48"></textarea><input class="submit-button" value="Submit" type="submit"></td>
 	      </tr>
 	      </table>
 	    </form>
